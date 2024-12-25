@@ -1,0 +1,51 @@
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow: hidden;
+	background: linear-gradient(
+		to right,
+		#aa3ed4,
+		#7f36d6,
+		#4b27da,
+		#7f36d6,
+		#aa3ed4
+	);
+	background-size: 200% 200%;
+	animation: gradientFlow 8s linear infinite;
+}
+
+@keyframes gradientFlow {
+	0% {
+		background-position: 0% 0%;
+	}
+	100% {
+		background-position: 200% 0%;
+	}
+}
+
+.brand {
+	height: 100px;
+
+	&-logo{
+		width: 200px;
+        height: 200px;
+	}
+}
+
+.login{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+
+	&-card {
+		width: 300px;
+		height: 400px;
+		border-radius: 20px;
+		background: #fff;
+	}
+}
+
+
+
