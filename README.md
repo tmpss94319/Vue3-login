@@ -4,4 +4,4 @@
 
 ## 畫面展示
 
-![screenshot of login page](/public/images/demo/demo-login.jpg.jpg)
+![screenshot of login page](/public/images/demo/demo-login.jpg)
